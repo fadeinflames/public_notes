@@ -1,5 +1,5 @@
 title: SRE Public Notes
-description: Public notes, runbooks, checklists, and references for Site Reliability Engineering.
+description: Public SRE notes, roadmaps, checklists, and curated reliability materials by Maxim Gusev.
 theme: just-the-docs
 
 permalink: pretty
@@ -11,6 +11,9 @@ nav_sort: case_insensitive
 
 back_to_top: true
 back_to_top_text: "Back to top"
+
+aux_links:
+  GitHub: https://github.com/fadeinflames/public_notes
 
 callouts:
   note:

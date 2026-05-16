@@ -4,22 +4,28 @@ layout: home
 nav_order: 1
 ---
 
-# SRE Public Notes
+# Максим Гусев
 
-A public knowledge base for Site Reliability Engineering: notes, runbooks, checklists, practical references, and links worth keeping close.
+SRE Team Lead @ RWB. Занимаюсь отказоустойчивыми системами, observability, SLO, инцидент-менеджментом и снижением тойла в инженерных командах.
 
-## Start here
+На странице курса Slurm «Управление надежностью систем на основе данных (SRE)» я представлен как инженер с опытом в DevOps/SRE, который прошел путь от системной эксплуатации к SRE leadership, работал с observability в Dodo Engineering и сейчас ведет SRE-направление в RWB.
 
-- [SRE map](docs/sre/)
-- [Incident response](docs/sre/incident-response/)
-- [Observability](docs/sre/observability/)
-- [Reliability practices](docs/sre/reliability/)
-- [Kubernetes](docs/sre/kubernetes/)
-- [Linux and networking](docs/sre/linux-networking/)
+## Здесь
 
-## Working style
+- [Road to SRE](docs/sre-materials/) — дорожная карта развития в SRE / Platform / Reliability engineering.
+- [SRE Theory Check-list](docs/sre-materials/theory-checklist/) — самопроверка по ключевым темам.
+- [SRE, SLO и алертинг](docs/sre-materials/slo-alerting/) — подборка открытых материалов по SLO, error budget, burn rate и алертингу.
+- [SRE map](docs/sre/) — короткие практические заметки и заготовки runbook-разделов.
 
-This site is intentionally Markdown-first. Add small pages, link them together, and keep operational material close to the workflow where it is used.
+## Мой фокус
 
-{: .tip }
-Good SRE notes should answer one practical question quickly: what is happening, how do we verify it, and what do we do next?
+- Надежность как инженерная система, а не героическое дежурство.
+- SLO/SLI/error budget как язык договоренности между продуктом и инженерией.
+- Observability, которая помогает принимать решения во время инцидента.
+- Инцидент-менеджмент без поиска виноватых, но с конкретными action items.
+- Платформенные практики, которые уменьшают ручную операционку и делают безопасный путь удобным.
+
+{: .note }
+Материалы на сайте публичные. Внутренние рабочие детали, приватные ссылки, секреты, имена внутренних систем и конфиденциальный контекст не публикуются.
+
+Источник био: [страница курса Slurm SRE](https://slurm.io/sre).

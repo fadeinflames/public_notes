@@ -33,3 +33,10 @@ parent: SRE
 nav_order: 60
 ---
 ```
+
+## Current structure
+
+- `index.md` - public home page and author profile.
+- `docs/sre-materials/index.md` - Road to SRE.
+- `docs/sre-materials/theory-checklist.md` - SRE theory self-check.
+- `docs/sre-materials/slo-alerting.md` - curated SRE, SLO, and alerting materials.

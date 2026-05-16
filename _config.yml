@@ -1,0 +1,29 @@
+title: SRE Public Notes
+description: Public notes, runbooks, checklists, and references for Site Reliability Engineering.
+theme: just-the-docs
+
+permalink: pretty
+search_enabled: true
+heading_anchors: true
+
+nav_enabled: true
+nav_sort: case_insensitive
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+callouts:
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  warning:
+    title: Warning
+    color: yellow
+  critical:
+    title: Critical
+    color: red
+
+footer_content: "SRE Public Notes. Built with Just the Docs and GitHub Pages."
